@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "RobotoCondensed-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoCondensed/RobotoCondensed-Regular.woff") format("woff"), url("../fonts/RobotoCondensed/RobotoCondensed-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ATRIA";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Atria/ATRIA.woff") format("woff"), url("../fonts/Atria/ATRIA.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoCondensed-Bold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/RobotoCondensed/RobotoCondensed-Bold.woff") format("woff"), url("../fonts/RobotoCondensed/RobotoCondensed-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ATRIA-BOLD";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/Atria/ATRIA-BOLD.woff") format("woff"), url("../fonts/Atria/ATRIA-BOLD.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoCondensed-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/RobotoCondensed/RobotoCondensed-Light.woff") format("woff"), url("../fonts/RobotoCondensed/RobotoCondensed-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RobotoCondensed-Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoCondensed/RobotoCondensed-Italic.woff") format("woff"), url("../fonts/RobotoCondensed/RobotoCondensed-Italic.ttf") format("truetype");
+}
