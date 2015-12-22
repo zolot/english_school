@@ -9,10 +9,34 @@ body
 	padding: 0
 	text-align: center
 $yellow-color: #fcc83b
+$dark-color: #1b1b1b
 .container
 	width: 1000px
 	padding: 0 15px
 	margin: 0 auto
+.btn-wrap
+	padding: 25px 45px
+	background: url('../img/btn-bg.png') no-repeat center
+	display: inline-block
+	vertical-align: top
+
+.btn 
+	width: 355px
+	height: 75px
+	background-image: -moz-linear-gradient(bottom, #E8A618 0%, #F7D84A 49%, #E8A618 100%);
+	background-image: -o-linear-gradient(bottom, #E8A618 0%, #F7D84A 49%, #E8A618 100%);
+	background-image: -webkit-linear-gradient(bottom, #E8A618 0%, #F7D84A 49%, #E8A618 100%);
+	background-image: linear-gradient(to top, #E8A618 0%, #F7D84A 49%, #E8A618 100%);
+	-moz-box-shadow: 0 4px 0 #4F3701;
+	-webkit-box-shadow: 0 4px 0 #4F3701;
+	box-shadow: 0 4px 0 #4F3701;
+	text-transform: uppercase
+	display: inline-block
+	text-decoration: none
+	color: #161616
+	font-size: 25px
+	font-family: "RobotoCondensed-Bold";
+	line-height: 75px
 h2 
 	font-size: 40px
 	font-family: "ATRIA-BOLD";
@@ -22,15 +46,16 @@ section
 	padding: 70px 0
 header
 	background-image: url("../img/header-bg.jpg")
-	background-size: cover
-	background-position: center
+	background-position: center top
 	color: #fff
-	padding: 40px 0 70px
+	padding: 40px 0 55px
 	.title
 		font-size: 23px
+		margin: 0
 	h1 
 		font-size: 45px
 		font-family: "ATRIA-BOLD";
+		margin-top: 20px
 		span 
 			font-size: 25px
 			font-family: "RobotoCondensed-Bold";
@@ -42,15 +67,17 @@ header
 		padding: 35px 40px 20px
 		font-family: "RobotoCondensed-Light";
 		display: inline-block
-		background: url("../img/clock.png") center bottom no-repeat
+		background: url("../img/clock.png") center top no-repeat
 		p 
 			margin: 0
+			line-height: 33px;
 		span
 			color: $yellow-color
-			font-size: 30px
+			font-size: 40px
 			font-family: "RobotoCondensed-Bold";
 #about-course
 	background-color: #FFF
+	color: $dark-color
 	.facts
 		text-align: center
 		background: url("../img/dotted-line.png") no-repeat center bottom
@@ -62,7 +89,7 @@ header
 				margin-right: 30px
 			p 
 				font-family: "RobotoCondensed-Regular";
-				width: 660px
+				width: 640px
 				display: inline-block
 				text-align: left
 				margin: 0
@@ -74,7 +101,248 @@ header
 			display: inline-block
 			vertical-align: top
 			margin: 0 50px
+			.icon-wrap
+				min-height: 120px
+			p 
+				margin: 0
 	.i-help
 		padding-top: 60px
+		h2 
+			margin-bottom: 45px
 
+#focus-points
+	background: url('../img/focus-point-bg.jpg') 
+	color: #fff
+	.focus-point-wrap
+		padding: 60px 0
+		background: url("../img/dotted-line-white.png") no-repeat center bottom
+		overflow: hidden
+		&:nth-child(3)
+			>img 
+				margin-right: 0
+				margin-left: 40px
+		&:nth-child(4)
+			background: none
+		img 
+			display: inline-block
+			vertical-align: middle
+			margin-right: 40px
+		.descr
+			text-align: left
+			vertical-align: middle
+			display: inline-block
+			width: 470px
+			.title
+				margin-bottom: 40px
+
+				img 
+					display: inline-block
+					vertical-align: middle
+					margin-right: 30px
+				h3 
+					display: inline-block
+					vertical-align: middle
+					font-size: 25px
+					font-family: "RobotoCondensed-Bold";
+			p 
+				font-size: 20px
+				font-family: "RobotoCondensed-Regular";
+
+#reasons
+	color: $dark-color
+	background: url('../img/reason-bg.jpg') center
+	h2 
+		margin-bottom: 50px
+	.center-wrap
+		margin: 0 auto
+		max-width: 755px
+	.reason-wrap
+		text-align: left
+		margin: 15px 12px
+		margin-left: 40px
+		.number
+			display: inline-block
+			vertical-align: middle
+			font-family: "ATRIA-BOLD";
+			font-size: 31px
+			width: 50px
+			height: 50px
+			line-height: 50px
+			background-color: #313131
+			border-radius: 50%
+			color: #f5f5f6
+			text-align: center
+			margin-right: 25px
+		p 
+			font-size: 22px
+			margin: 0
+			font-family: "RobotoCondensed-Regular";
+			display: inline-block
+			vertical-align: middle
+#rectify-situation
+	color: $dark-color
+	background: url("../img/dotted-line.png") no-repeat center bottom
+	padding-bottom: 55px
+	h3 
+		font-size: 22px
+		font-family: "RobotoCondensed-Bold";
+		margin-bottom: 35px
+	h2 
+		margin-bottom: 20px
+	.component-wrap
+		display: inline-block
+		width: 320px
+		padding: 0 30px 
+		box-sizing: border-box
+		vertical-align: top
+		margin-bottom: 25px
+		.icon-wrap
+			min-height: 95px
+		p 
+			font-size: 20px
+			font-family: "RobotoCondensed-Regular";
+			text-align: left
+			margin: 0
+
+#skill-form, 
+#get-start
+	background: url("../img/dotted-line.png") no-repeat center bottom
+	img 
+		display: inline-block
+		vertical-align: top
+
+#sessions
+	color: $dark-color
+	padding-top: 50px
+	padding-bottom: 0
+	h2 
+		color: $yellow-color
+		background: url('../img/sessions-h-accentuation.png') no-repeat center
+		padding: 30px 0
+		margin-bottom: 55px
+	.week
+		overflow: hidden
+		h3
+			font-size: 40px
+			font-family: "RobotoCondensed-Bold";
+			margin-top: 0
+		.session-wrap
+			padding: 0 45px 60px 
+			overflow: hidden
+			margin-bottom: 60px
+			.col-1
+				float: left
+				margin: 0 10px
+				width: 290px
+				text-align: left
+				h4 
+					font-family: "RobotoCondensed-Bold";
+					font-size: 30px
+					margin: 0
+				.date
+					font-size: 30px
+					margin: 0
+				h5 
+					font-size: 20px
+					padding: 25px 
+					position: relative
+					left: -25px 
+					margin: 0
+					color: #fff
+					font-weight: normal
+					strong 
+						font-family: "RobotoCondensed-Bold";
+				.duration
+					padding: 25px 0
+					background: url('../img/dotted-lines-small.png') no-repeat center 
+					font-family: "RobotoCondensed-Italic";
+					img, p
+						display: inline-block
+						vertical-align: middle
+					img 
+						margin-right: 5px
+					p 
+						margin: 0
+				.task
+					font-family: "RobotoCondensed-Regular";
+					font-size: 20px
+					strong
+						font-family: "RobotoCondensed-Bold";
+			.col-2
+				float: left
+				margin: 0 10px
+				width: 580px
+				text-align: left
+				ul 
+					margin: 0
+					list-style-type: none
+					font-size: 20px
+					font-family: "RobotoCondensed-Regular";
+					li 
+						padding-left: 50px 
+						margin: 19px 0
+	.week-1
+		h3 
+			color: #3b4f86
+		.session-wrap
+			background: url('../img/session-border-1.png') no-repeat center bottom
+			.col-1
+				h5
+					background: url('../img/session-accentuation-1.png') no-repeat center left
+			.col-2
+				ul 
+					li 
+						background: url('../img/session-arrow-1.png') no-repeat center left
+	.week-2
+		h3 
+			color: #0b8d92
+		.session-wrap
+			background: url('../img/session-border-2.png') no-repeat center bottom
+			.col-1
+				h5
+					background: url('../img/session-accentuation-2.png') no-repeat center left
+			.col-2
+				ul 
+					li 
+						background: url('../img/session-arrow-2.png') no-repeat center left
+	.week-3
+		h3 
+			color: #9c4591
+		.session-wrap
+			background: url('../img/session-border-3.png') no-repeat center bottom
+			.col-1
+				h5
+					background: url('../img/session-accentuation-3.png') no-repeat center left
+			.col-2
+				ul 
+					li 
+						background: url('../img/session-arrow-3.png') no-repeat center left
+	.week-4
+		h3 
+			color: #5b9313
+		.session-wrap
+			background: url('../img/session-border-4.png') no-repeat center bottom
+			.col-1
+				h5
+					background: url('../img/session-accentuation-4.png') no-repeat center left
+			.col-2
+				ul 
+					li 
+						background: url('../img/session-arrow-4.png') no-repeat center left
+	.week-5
+		h3 
+			color: #f1712b
+		.session-wrap
+			background: url('../img/session-border-5.png') no-repeat center bottom
+			.col-1
+				h5
+					background: url('../img/session-accentuation-5.png') no-repeat center left
+			.col-2
+				ul 
+					li 
+						background: url('../img/session-arrow-5.png') no-repeat center left
+			&:last-child
+				background: url("../img/dotted-line.png") no-repeat center bottom
+				margin: 0
+	
 

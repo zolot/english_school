@@ -14,6 +14,32 @@ body {
   margin: 0 auto;
 }
 
+.btn-wrap {
+  padding: 25px 45px;
+  background: url("../img/btn-bg.png") no-repeat center;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.btn {
+  width: 355px;
+  height: 75px;
+  background-image: -moz-linear-gradient(bottom, #E8A618 0%, #F7D84A 49%, #E8A618 100%);
+  background-image: -o-linear-gradient(bottom, #E8A618 0%, #F7D84A 49%, #E8A618 100%);
+  background-image: -webkit-linear-gradient(bottom, #E8A618 0%, #F7D84A 49%, #E8A618 100%);
+  background-image: linear-gradient(to top, #E8A618 0%, #F7D84A 49%, #E8A618 100%);
+  -moz-box-shadow: 0 4px 0 #4F3701;
+  -webkit-box-shadow: 0 4px 0 #4F3701;
+  box-shadow: 0 4px 0 #4F3701;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  color: #161616;
+  font-size: 25px;
+  font-family: "RobotoCondensed-Bold";
+  line-height: 75px;
+}
+
 h2 {
   font-size: 40px;
   font-family: "ATRIA-BOLD";
@@ -26,19 +52,20 @@ section {
 
 header {
   background-image: url("../img/header-bg.jpg");
-  background-size: cover;
-  background-position: center;
+  background-position: center top;
   color: #fff;
-  padding: 40px 0 70px;
+  padding: 40px 0 55px;
 }
 
 header .title {
   font-size: 23px;
+  margin: 0;
 }
 
 header h1 {
   font-size: 45px;
   font-family: "ATRIA-BOLD";
+  margin-top: 20px;
 }
 
 header h1 span {
@@ -56,21 +83,23 @@ header .start {
   padding: 35px 40px 20px;
   font-family: "RobotoCondensed-Light";
   display: inline-block;
-  background: url("../img/clock.png") center bottom no-repeat;
+  background: url("../img/clock.png") center top no-repeat;
 }
 
 header .start p {
   margin: 0;
+  line-height: 33px;
 }
 
 header .start span {
   color: #fcc83b;
-  font-size: 30px;
+  font-size: 40px;
   font-family: "RobotoCondensed-Bold";
 }
 
 #about-course {
   background-color: #FFF;
+  color: #1b1b1b;
 }
 
 #about-course .facts {
@@ -90,7 +119,7 @@ header .start span {
 
 #about-course .facts .descr-wrap p {
   font-family: "RobotoCondensed-Regular";
-  width: 660px;
+  width: 640px;
   display: inline-block;
   text-align: left;
   margin: 0;
@@ -108,6 +137,356 @@ header .start span {
   margin: 0 50px;
 }
 
+#about-course .questions .question-wrap .icon-wrap {
+  min-height: 120px;
+}
+
+#about-course .questions .question-wrap p {
+  margin: 0;
+}
+
 #about-course .i-help {
   padding-top: 60px;
+}
+
+#about-course .i-help h2 {
+  margin-bottom: 45px;
+}
+
+#focus-points {
+  background: url("../img/focus-point-bg.jpg");
+  color: #fff;
+}
+
+#focus-points .focus-point-wrap {
+  padding: 60px 0;
+  background: url("../img/dotted-line-white.png") no-repeat center bottom;
+  overflow: hidden;
+}
+
+#focus-points .focus-point-wrap:nth-child(3) > img {
+  margin-right: 0;
+  margin-left: 40px;
+}
+
+#focus-points .focus-point-wrap:nth-child(4) {
+  background: none;
+}
+
+#focus-points .focus-point-wrap img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+
+#focus-points .focus-point-wrap .descr {
+  text-align: left;
+  vertical-align: middle;
+  display: inline-block;
+  width: 470px;
+}
+
+#focus-points .focus-point-wrap .descr .title {
+  margin-bottom: 40px;
+}
+
+#focus-points .focus-point-wrap .descr .title img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+#focus-points .focus-point-wrap .descr .title h3 {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 25px;
+  font-family: "RobotoCondensed-Bold";
+}
+
+#focus-points .focus-point-wrap .descr p {
+  font-size: 20px;
+  font-family: "RobotoCondensed-Regular";
+}
+
+#reasons {
+  color: #1b1b1b;
+  background: url("../img/reason-bg.jpg") center;
+}
+
+#reasons h2 {
+  margin-bottom: 50px;
+}
+
+#reasons .center-wrap {
+  margin: 0 auto;
+  max-width: 755px;
+}
+
+#reasons .reason-wrap {
+  text-align: left;
+  margin: 15px 12px;
+  margin-left: 40px;
+}
+
+#reasons .reason-wrap .number {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "ATRIA-BOLD";
+  font-size: 31px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #313131;
+  border-radius: 50%;
+  color: #f5f5f6;
+  text-align: center;
+  margin-right: 25px;
+}
+
+#reasons .reason-wrap p {
+  font-size: 22px;
+  margin: 0;
+  font-family: "RobotoCondensed-Regular";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#rectify-situation {
+  color: #1b1b1b;
+  background: url("../img/dotted-line.png") no-repeat center bottom;
+  padding-bottom: 55px;
+}
+
+#rectify-situation h3 {
+  font-size: 22px;
+  font-family: "RobotoCondensed-Bold";
+  margin-bottom: 35px;
+}
+
+#rectify-situation h2 {
+  margin-bottom: 20px;
+}
+
+#rectify-situation .component-wrap {
+  display: inline-block;
+  width: 320px;
+  padding: 0 30px;
+  box-sizing: border-box;
+  vertical-align: top;
+  margin-bottom: 25px;
+}
+
+#rectify-situation .component-wrap .icon-wrap {
+  min-height: 95px;
+}
+
+#rectify-situation .component-wrap p {
+  font-size: 20px;
+  font-family: "RobotoCondensed-Regular";
+  text-align: left;
+  margin: 0;
+}
+
+#skill-form,
+#get-start {
+  background: url("../img/dotted-line.png") no-repeat center bottom;
+}
+
+#skill-form img,
+#get-start img {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#sessions {
+  color: #1b1b1b;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+#sessions h2 {
+  color: #fcc83b;
+  background: url("../img/sessions-h-accentuation.png") no-repeat center;
+  padding: 30px 0;
+  margin-bottom: 55px;
+}
+
+#sessions .week {
+  overflow: hidden;
+}
+
+#sessions .week h3 {
+  font-size: 40px;
+  font-family: "RobotoCondensed-Bold";
+  margin-top: 0;
+}
+
+#sessions .week .session-wrap {
+  padding: 0 45px 60px;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+#sessions .week .session-wrap .col-1 {
+  float: left;
+  margin: 0 10px;
+  width: 290px;
+  text-align: left;
+}
+
+#sessions .week .session-wrap .col-1 h4 {
+  font-family: "RobotoCondensed-Bold";
+  font-size: 30px;
+  margin: 0;
+}
+
+#sessions .week .session-wrap .col-1 .date {
+  font-size: 30px;
+  margin: 0;
+}
+
+#sessions .week .session-wrap .col-1 h5 {
+  font-size: 20px;
+  padding: 25px;
+  position: relative;
+  left: -25px;
+  margin: 0;
+  color: #fff;
+  font-weight: normal;
+}
+
+#sessions .week .session-wrap .col-1 h5 strong {
+  font-family: "RobotoCondensed-Bold";
+}
+
+#sessions .week .session-wrap .col-1 .duration {
+  padding: 25px 0;
+  background: url("../img/dotted-lines-small.png") no-repeat center;
+  font-family: "RobotoCondensed-Italic";
+}
+
+#sessions .week .session-wrap .col-1 .duration img, #sessions .week .session-wrap .col-1 .duration p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#sessions .week .session-wrap .col-1 .duration img {
+  margin-right: 5px;
+}
+
+#sessions .week .session-wrap .col-1 .duration p {
+  margin: 0;
+}
+
+#sessions .week .session-wrap .col-1 .task {
+  font-family: "RobotoCondensed-Regular";
+  font-size: 20px;
+}
+
+#sessions .week .session-wrap .col-1 .task strong {
+  font-family: "RobotoCondensed-Bold";
+}
+
+#sessions .week .session-wrap .col-2 {
+  float: left;
+  margin: 0 10px;
+  width: 580px;
+  text-align: left;
+}
+
+#sessions .week .session-wrap .col-2 ul {
+  margin: 0;
+  list-style-type: none;
+  font-size: 20px;
+  font-family: "RobotoCondensed-Regular";
+}
+
+#sessions .week .session-wrap .col-2 ul li {
+  padding-left: 50px;
+  margin: 19px 0;
+}
+
+#sessions .week-1 h3 {
+  color: #3b4f86;
+}
+
+#sessions .week-1 .session-wrap {
+  background: url("../img/session-border-1.png") no-repeat center bottom;
+}
+
+#sessions .week-1 .session-wrap .col-1 h5 {
+  background: url("../img/session-accentuation-1.png") no-repeat center left;
+}
+
+#sessions .week-1 .session-wrap .col-2 ul li {
+  background: url("../img/session-arrow-1.png") no-repeat center left;
+}
+
+#sessions .week-2 h3 {
+  color: #0b8d92;
+}
+
+#sessions .week-2 .session-wrap {
+  background: url("../img/session-border-2.png") no-repeat center bottom;
+}
+
+#sessions .week-2 .session-wrap .col-1 h5 {
+  background: url("../img/session-accentuation-2.png") no-repeat center left;
+}
+
+#sessions .week-2 .session-wrap .col-2 ul li {
+  background: url("../img/session-arrow-2.png") no-repeat center left;
+}
+
+#sessions .week-3 h3 {
+  color: #9c4591;
+}
+
+#sessions .week-3 .session-wrap {
+  background: url("../img/session-border-3.png") no-repeat center bottom;
+}
+
+#sessions .week-3 .session-wrap .col-1 h5 {
+  background: url("../img/session-accentuation-3.png") no-repeat center left;
+}
+
+#sessions .week-3 .session-wrap .col-2 ul li {
+  background: url("../img/session-arrow-3.png") no-repeat center left;
+}
+
+#sessions .week-4 h3 {
+  color: #5b9313;
+}
+
+#sessions .week-4 .session-wrap {
+  background: url("../img/session-border-4.png") no-repeat center bottom;
+}
+
+#sessions .week-4 .session-wrap .col-1 h5 {
+  background: url("../img/session-accentuation-4.png") no-repeat center left;
+}
+
+#sessions .week-4 .session-wrap .col-2 ul li {
+  background: url("../img/session-arrow-4.png") no-repeat center left;
+}
+
+#sessions .week-5 h3 {
+  color: #f1712b;
+}
+
+#sessions .week-5 .session-wrap {
+  background: url("../img/session-border-5.png") no-repeat center bottom;
+}
+
+#sessions .week-5 .session-wrap .col-1 h5 {
+  background: url("../img/session-accentuation-5.png") no-repeat center left;
+}
+
+#sessions .week-5 .session-wrap .col-2 ul li {
+  background: url("../img/session-arrow-5.png") no-repeat center left;
+}
+
+#sessions .week-5 .session-wrap:last-child {
+  background: url("../img/dotted-line.png") no-repeat center bottom;
+  margin: 0;
 }
