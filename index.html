@@ -9,10 +9,13 @@
 	<link rel="shortcut icon" href="favicon.png" />
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" media="screen" />
+	<link rel="stylesheet" href="libs/magnific/magnific-popup.css" />
 
 	<link rel="stylesheet" href="css/fonts.css" />
+	<!-- <link rel="stylesheet" href="css/reset.css" /> -->
 	<link rel="stylesheet" href="css/style.css" />
-
+	
 </head>
 <body>
 	<header>
@@ -25,6 +28,46 @@
 			<p>Старт Программы <br> <span>15 января</span></p>
 		</div>
 	</header>
+	
+	<section id="about-course-video">
+		<div class="container">
+			<h2>Что это за курс? <span>Посмотрите Это <br>Короткое <span class="min-3">3-х</span> Минутное Видео</span></h2>
+			<iframe width="700" height="400" src="https://www.youtube.com/embed/VfVPkFSApNQ" frameborder="0" allowfullscreen></iframe>
+			<p>Нравится программа? <strong>Кликайте Нравится:</strong></p>
+			<img src="img/arrow-down.png">
+			<div class="soc-box clearfix">
+				<div class="soc">
+					<!-- vk -->
+					<script type="text/javascript" src="http://vk.com/js/api/share.js?93" charset="windows-1251"></script>
+					<script type="text/javascript"><!--
+					document.write(VK.Share.button(false,{type: "button", text: "Мне нравиться"}));
+					--></script>
+					<!-- end -->
+				</div>
+				<div class="soc">
+					<!-- fc -->
+
+					<div id="fb-root"></div>
+					<script>(function(d, s, id) {
+					  var js, fjs = d.getElementsByTagName(s)[0];
+					  if (d.getElementById(id)) return;
+					  js = d.createElement(s); js.id = id;
+					  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.5&appId=429900463855379";
+					  fjs.parentNode.insertBefore(js, fjs);
+					}(document, 'script', 'facebook-jssdk'));</script>
+
+					<div class="fb-like" data-href="http://englishmimms.com/webinarseries" data-layout="button_count" data-action="like" data-show-faces="true" data-share="false"></div>
+
+					<!-- end -->
+				</div>
+			</div>
+			<div class="btn-wrap">
+				<a href="#variant-participation" class="btn">ПРИНЯТЬ УЧАСТИЕ</a>
+			</div>
+			
+		</div>
+		
+	</section>
 
 	<section id="about-course">
 		<div class="container">
@@ -181,7 +224,7 @@
 			<div>
 				<img src="img/arrow-1.png">
 				<div class="btn-wrap">
-					<a href="" class="btn">ПРИНЯТЬ УЧАСТИЕ</a>
+					<a href="#variant-participation" class="btn">ПРИНЯТЬ УЧАСТИЕ</a>
 				</div>
 				<img src="img/arrow-2.png">
 			</div>
@@ -502,13 +545,274 @@ conversation.</p>
 			<div>
 				<img src="img/arrow-1.png">
 				<div class="btn-wrap">
-					<a href="" class="btn">ПРИНЯТЬ УЧАСТИЕ</a>
+					<a href="#variant-participation" class="btn">ПРИНЯТЬ УЧАСТИЕ</a>
 				</div>
 				<img src="img/arrow-2.png">
 			</div>
 		</section>
+
+		<section id="videocomments">
+			<h2>Что про меня говорят мои ученики</h2>
+			<div class="comment">
+				<img src="img/arrow-3.png">
+				<h5>Надежда, Украина</h5>
+				<iframe width="467" height="302" src="https://www.youtube.com/embed/VQBBhSsUBRM" frameborder="0" allowfullscreen></iframe>
+			</div>
+			<div class="comment">
+				<h5>Берна, Германия</h5>
+				<img src="img/arrow-4.png">
+				<iframe width="467" height="302" src="https://www.youtube.com/embed/a3IJLiXz1Hg" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</section>
 	</div>
-	
+
+		<section id="three-reasons">
+			<div class="container">
+				<h2>Вы Думали Это Все? Нет.  <br><span>Вот Еще 3 Причины, Почему Будет <br>Очень Жалко, Если Вы Это Пропустите</span></h2>
+			<div class="reason-wrap">
+				<h3>Бонус №1</h3>
+				<h4>10 дополнительных видео <br>и аудио материалов <span>[ценность 65 $]</span> </h4>
+				<img src="img/res-img-1.png">
+				<p class="descr">К каждому из мастер-классов Вы получите видео 
+и его аудио версию, рассчитанные на 2-3 часа самостоятельных занятий по закреплению 
+пройденного на мастер-классе материала. Чистая 
+стоимость этих материалов составляет 65 $, но 
+Вы получаете их в подарок.</p>
+			</div>
+			<div class="reason-wrap">
+				<h3>Бонус №2</h3>
+				<h4>Доступ в Закрытую группу учеников <br> на Facebook <span>[бесценно]</span></h4>
+				<img src="img/res-img-2.png">
+				<div class="descr">
+					<p>Есть вопрос по грамматике, лексике, переводу, 
+по менталитету или культуре англичан, немцев? 
+Задавайте в любое время.</p>
+					<p>Вы сможете задавать эти вопросы даже через месяц 
+и через год после окончания курса. Это самое ценное.</p>
+				</div>
+				
+			</div>
+			<div class="reason-wrap">
+				<h3>Бонус №3</h3>
+				<h4>Две дополнительные он-лайн сессии<br> Вопрос-Ответ <span>[ценность 50$]</span></h4>
+				<img src="img/res-img-3.png">
+				<div class="descr">
+					<p class="descr">Скорее всего, у Вас будут возникать вопросы, которые Вы захотите задать лично мне, помимо группы 
+на Facebook. </p>
+					<p class="descr">В течение 7 недель мы организуем 2  дополнительных сессии вопрос-ответ со мной, где Вы сможете задать мне любой вопрос.</p>
+				</div>
+				
+			</div>
+			</div>
+			
+		</section>
+
+		<div class="container">
+			<section id="skill-form-2">
+				<h2>Начнем Формировать Ваш Новый Навык —<br>Уверенно Говорить на Английском,<br>Сразу После Праздников? Действуйте.</h2>
+				<div>
+					<img src="img/arrow-1.png">
+					<div class="btn-wrap">
+						<a href="#variant-participation" class="btn">ПРИНЯТЬ УЧАСТИЕ</a>
+					</div>
+					<img src="img/arrow-2.png">
+				</div>
+			</section>
+
+			<section id="guarantee">
+				<h2>Вы Ничем Не Рискуете</h2>
+				<h3>Если этот он-лайн тренинг Вам не подойдет или не понравятся —<br>
+мы вернем Вам 100% заплаченнывых Вами денег.</h3>
+				<div class="descr">
+					<img src="img/guarantee.png">
+					<p>Я понимаю, что у Вас может возникнуть вопрос: “На сколько эта 
+программа подойдет для меня?”. И если Вы еще никогда не посещали
+моих уроков, то Вам тоже трудно судить, насколько они хороши.</p>
+				</div>
+				<h4>Поэтому:</h4>
+				<ul>
+					<li>Чтобы снять с Вас любые риски, мы даем вам 100% гарантию 
+возврата средств в течение первых 2-х сессий (7 дней). 
+То есть Вы получаете полный доступ к первым 2-м сессиям.</li>
+					<li>Поэтому, Вам необязательно решать сейчас. Включайтесь, пробуйте,
+а окончательное решение Вы можете принять через неделю поле
+начала обучения. Так что, Вы ничего не теряете.</li>
+					<li>Почему я с легкостью даю такую гарантию? Потому что я знаю 
+почти наверняка, что мои мастер-классы ПОМОГУТ Вам заговорить
+по-английски и почувствовать в себе силу сказать YES, I CAN.</li>
+				</ul>
+			</section>
+		</div>
+		
+		<section id="price">
+			<div class="container">
+				<h2>Сколько Стоит Участие в Мастер-Классах и Как Записаться?</h2>
+				<p class="descr">С одной стороны, наверное, у Вас сложилось впечатление, <br>
+что с такой интенсивной программой, поддержкой носителя языка <br>
+и всеми бонусами, это должно быть ну очень дорого.</p>
+			<div class="detal">
+				<div class="wrap">
+					<img src="img/price-icon-1.png">
+					<p>На самом деле, честно говоря, все это для меня лично стоило огромного количества труда, времени и денег.</p>
+				</div>
+				<div class="wrap">
+					<img src="img/price-icon-2.png">
+					<p>Но Вам не нужно делать огромные затраты, что бы 
+получить этот концентрат знаний и методик, потому что сейчас мне с моим опытом достаточно легко передать Вам все это.</p>
+				</div>				
+			</div>
+			<p class="adv">Вам это не будет стоить даже 15% той суммы, которую затратила я. <br>
+Вы можете приобрести качественные знания английского намного, <br>
+я имею в виду НАМНОГО дешевле.</p>
+			</div>			
+		</section>
+
+		<section id="variant-participation">
+			<div class="container">
+				<h2>Выберите ваш вариант участия:</h2>
+				<div class="variant-wrap">
+					<h3>VIP</h3>
+					<ul>						
+						<li>Полный Доступ ко всем 
+						5 неделям тренинга</li>
+						<li>Доступ к записям в кабинете</li>
+						<li>Полный Доступ ко всему бонусному пакету [Ценность 115$]</li>
+						<li>Доступ к 2-ум дополнительным Вопрос-Ответ сессиям со мной</li>
+						<li>Доступ в закрытую группу 
+						поддержки в Facebook на 
+						следующие 365 дней</li>
+						<li>Видео и аудио курс для 
+						самостоятельного пополнения запаса слов и предложений: </li>
+						<li>1350 распространенных 
+						английских фраз</li>
+						<li>Более 2500 необходимых 
+						английских слов</li>
+						<li>10 видео и аудио уроков 
+						в форматах видео и mp-3</li>
+					</ul>
+					<div class="price"><p>Обычная стоимость:</p> <span>165$</span>	</div>
+					<div class="sale"><p>Стоимость со скидкой:</p> <span>95$</span>	</div>
+					<div class="btn-wrap">
+						<a href="http://englishmimms.com/vip/mini/pay/step_0.html" class="btn" target="_blank">ПРИНЯТЬ УЧАСТИЕ</a>
+					</div>
+				</div>
+				<div class="variant-wrap">
+					<h3>Standart</h3>
+					<ul>				
+						<li>Полный Доступ ко всем 
+						5 неделям тренинга</li>
+						<li>Доступ к записям в кабинете</li>
+						<li>Полный Доступ ко всему бонусному пакету [Ценность 115$]</li>
+						<li>Доступ к 2-ум дополнительным Вопрос-Ответ сессиям со мной</li>
+						<li>Доступ в закрытую группу 
+						поддержки в Facebook на 
+						следующие 365 дней	</li>
+					</ul>
+					<div class="price"><p>Обычная стоимость:</p> <span>95$</span>	</div>
+					<div class="sale"><p>Стоимость со скидкой:</p> <span>75$</span>	</div>
+					<div class="btn-wrap">
+						<a href="http://englishmimms.com/training/standart/pay/step_0.html" class="btn" target="_blank">ПРИНЯТЬ УЧАСТИЕ</a>
+					</div>
+				</div>
+				<div class="variant-wrap">
+					<h3>Mini</h3>
+					<ul>					
+						<li>Видео и аудио курс для 
+						самостоятельного пополнения запаса слов и предложений:</li>
+						<li>1350 распространенных 
+						английских фраз</li>
+						<li>Более 2500 необходимых 
+						английских слов</li>
+						<li>10 видео и аудио уроков 
+						в форматах видео и mp-3	</li>
+					</ul>
+					<div class="price"><p>Обычная стоимость:</p> <span>85$</span>	</div>
+					<div class="sale"><p>Стоимость со скидкой:</p> <span>55$</span>	</div>
+					<div class="btn-wrap">
+						<a href="http://englishmimms.com/training/mini/pay/step_0.html" class="btn" target="_blank">ПРИНЯТЬ УЧАСТИЕ</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="pupil-say">
+			<div class="container">
+				<h2>Что говорят наши ученики</h2>
+				<img src="img/pupil-say.png">
+			</div>
+			
+		</section>
+
+		<section id="examples-projects">
+			<div class="container">
+				<h2>Примеры наших проектов по технологии UNI</h2>
+				<div class="example">
+					<img src="img/arrow-3.png">
+					<h5>Business English для немецкоязычных учеников</h5>
+					<iframe width="450" height="302" src="https://www.youtube.com/embed/VQBBhSsUBRM" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<div class="example">
+					<h5>Business English для русскоязычных учеников</h5>
+					<img src="img/arrow-4.png">
+					<iframe width="467" height="302" src="https://www.youtube.com/embed/a3IJLiXz1Hg" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<section id="ready">
+					<h2>Начнем Формировать Ваш Новый Навык —<br>Уверенно Говорить на Английском,<br>в Следующие 5 Недель? Действуйте.</h2>
+					<div>
+						<img src="img/arrow-1.png">
+						<div class="btn-wrap">
+							<a href="#variant-participation" class="btn">ПРИНЯТЬ УЧАСТИЕ</a>
+						</div>
+						<img src="img/arrow-2.png">
+					</div>
+				</section>
+					
+				</section>
+			</div>
+		</section>
+
+		<section id="feedback">
+			<div class="container">
+				<h2>Есть любые вопросы?</h2>
+				<p class="instruct">Позвоните нам или заполните форму заявки и отправьте ее нам. <br>Мы свяжемся с Вами в течение 1 часа в рабочее время.</p>
+					<form accept-charset="utf-8" id="form" method="post" action='contacts.php'>
+						<input id="name" class="wf-input name" type="text" name="name" placeholder="Введите Ваше Имя" required>
+						<input id="email" class="wf-input wf-req wf-valid__email email" type="email" name="email" required placeholder="Введите Ваш e-mail">						
+						<input id="phone" type="text" name="phone" class="NumGroup phone" placeholder="Ваш Телефон (+7 123 456-78-90)" required>
+                        <textarea placeholder="Ваше сообщение" name="question" required></textarea>
+						<div class="btn_or_bg">
+							<div class="btn-wrap">
+								<button  type="submit" class="wf-button btn subm1" name="submit" value="Записаться">Записаться</button>
+							</div>
+						</div>
+					</form>
+					<div class="contacts">
+						<p>Наш телефон: <strong>+ 38 (098) 716-70-73</strong></p>
+						<p>Email: <strong>englishmimmscom@gmail.com</strong></p>
+						<p>Skype: <strong>lingva2</strong></p>
+					</div>
+			</div>
+		</section>
+	<footer class="page-row">
+		<div class="footer">
+			<div class="container">
+				<a href="/" class="logo"></a>
+				<div class="text">
+					<p>Все права защищены © 2015 Татьяна Миммс.</p>
+					<p>
+						По всем вопросам: info@englishmimms.com, +38 098 716 70 73 (Украина)
+					</p>
+				</div>
+				<ul>
+					<li><a href="text-politik.html" class="fancybox-text iframe" data-fancybox-type="iframe" data-title-id="title-1">Политика конфиденциальности</a></li>
+					<li><a href="text-otkaz.html" class="fancybox-text iframe" data-fancybox-type="iframe" data-title-id="title-2">Отказ от ответственности</a></li>
+					<li><a href="text-soglas.html" class="fancybox-text iframe" data-fancybox-type="iframe" data-title-id="title-3">Согласие с рассылкой</a></li>
+					<li><a href="#pop-4" class="fancybox-text" data-title-id="title-4">Гарантия возврата</a></li>
+				</ul>
+				<a href="#" class="btn-but">Партнерская программа</a>
+			</div>
+		</div>
+	</footer>
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -517,10 +821,53 @@ conversation.</p>
 	<![endif]-->
 	
 	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
-	
+	<script src="libs/fancybox/min.jquery.fancybox.js"></script>
+	<script src="libs/magnific/jquery.magnific-popup.min.js"></script>
 	<script src="js/common.js"></script>
 
+	<!-- Название всплывающих окон -->
+		<div class="hidden">
+			<div id="request">
+				<h3>Спасибо</h3>
+				<p>Ваше сообщение успешно отправлено. <br>Наша служба поддержки свяжется с Вами в ближайщее время.</p>
+				<button class="btn close">ОК</button>
+			</div>
+		</div>
+		<div id="title-1" class="hidden">
+	    	<div class="title">Политика конфиденциальности</div>
+	        <a href="javascript:void(0)" onclick="$.fancybox.close(); return false;" class="title-btn"><i></i></a>
+	    </div>
+	    <div id="title-2" class="hidden">
+	    	<div class="title">Отказ от ответственности</div>
+	        <a href="javascript:void(0)" onclick="$.fancybox.close(); return false;" class="title-btn"><i></i></a>
+	    </div>
+	    <div id="title-3" class="hidden">
+	    	<div class="title">Согласие с рассылкой</div>
+	        <a href="javascript:void(0)" onclick="$.fancybox.close(); return false;" class="title-btn"><i></i></a>
+	    </div>
+	    <div id="title-4" class="hidden">
+	    	<div class="title">Гарантия возврата</div>
+	        <a href="javascript:void(0)" onclick="$.fancybox.close(); return false;" class="title-btn"><i></i></a>
+	    </div>
 
+
+	<div id="pop-4" class="modal" style="display:none;">
+			<div class="modal_content modal_text">
+				<div class="box">
+					<div class="text">
+						<p>
+							English Mimms гарантирует 100% возврат денег за приобретенный цифровой продукт и/или услугу по первому требованию клиента. Гарантийный период определяется для каждых товаров или услуг индивидуально, и составляет 8 дней или более с момента оплаты для онлайн тренингов.
+						</p>
+						<p>
+							Чтобы запросить возврат средств за определенный тренинг/продукт или услугу, напишите на email нашей тех. поддержки: info@englishmimms.com Все заявки рассматриваются в течение 24 часов, а платеж осуществляется в конце текущего месяца.
+						</p>
+						<p>
+							Возврат денежных средств осуществляется с помощью перевода необходимой суммы на карту VISA / MASTERCARD или на один из электронных кошельков (WebMoney, Яндекс.Деньги), в рублях или гривнах. Длительность транзакции – от 1 до 3-х банковских дней.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
 	
 </body>
 </html>
